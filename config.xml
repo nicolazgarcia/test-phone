@@ -27,9 +27,8 @@
     <icon src="img/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
     <icon src="img/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
 
-    <gap:plugin name="com.phonegap.plugins.childbrowser" version="5.0.0" />
     <!--
-
+    <gap:plugin name="com.phonegap.plugins.childbrowser" version="5.0.0" />
     <gap:plugin name="com.fridaydesigm.plugins.viewport_scale" version="0.9.3" />
     -->  
 
