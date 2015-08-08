@@ -13,7 +13,7 @@
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" value="true" />
     <preference name="BackgroundColor" value="#E48CB8" />
-    <preference name="DisallowOverscroll" value="true"/>
+    
     <preference name="EnableViewportScale" value="true" />
 
     <icon src="icon.png" />
