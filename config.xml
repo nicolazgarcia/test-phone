@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="museo.efimero" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="museo.efimero" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap = "http://phonegap.com/ns/1.0">
     <name>Museo Efímero del Olvido</name>
     <description>
         Mapa interactivo de audios visita guiada museo efímero del olvido 2015
@@ -15,15 +15,15 @@
     <preference name="DisallowOverscroll" value="true"/>
 
     <icon src="icon.png" />
-    <icon src="img/android/drawable-ldpi/ic_launcher.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="img/android/drawable-mdpi/ic_launcher.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="img/android/drawable-hdpi/ic_launcher.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="img/android/drawable-xhdpi/ic_launcher.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+    <icon src="img/android/drawable-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="img/android/drawable-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="img/android/drawable-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="img/android/drawable-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
 
-    <icon src="img/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="img/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="img/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="img/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />  
+    <icon src="img/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="img/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="img/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="img/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />  
 
     <accesss origin="*" />
 </widget>
