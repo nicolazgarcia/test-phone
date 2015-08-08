@@ -13,17 +13,19 @@ function effSound(soundobj) {
 }
 
 	
-$('.cerrar').click(function(){
-	$('audio').each(function(){
-	    this.pause(); // Stop playing
-	    this.currentTime = 0; // Reset time
-	});
+$('.cerrar, .mask').click(function(){
+	
 
 	$('.mask').fadeOut();
 	$('article').fadeOut();
 
 	$('.tipos li').removeClass('active');
 	$('.tarjeta').removeClass('show');
+
+    $('audio').each(function(){
+        this.pause(); // Stop playing
+        this.currentTime = 0; // Reset time
+    });
 
 });
 
@@ -33,15 +35,17 @@ $('.pieza h3').each(function() {
 	});
 	});
 	$('.volver').each(function() {
-	$(this).click(function() {
-		$('audio').each(function(){
-	    	this.pause(); // Stop playing
-	    	this.currentTime = 0; // Reset time
-		});
-		$('.tipos li').removeClass('active');
+    	$(this).click(function() {
+    		
+    		$('.tipos li').removeClass('active');
 
-  		$(this).parent().removeClass('show');
-	});
+      		$(this).parent().removeClass('show');
+
+            $('audio').each(function(){
+                this.pause(); // Stop playing
+                this.currentTime = 0; // Reset time
+            });
+    	});
 	});
 	$.fn.clicktoggle = function(a, b) {
     return this.each(function() {
@@ -73,6 +77,14 @@ $('.pieza h3').each(function() {
 	$(this).removeClass('active');
 });*/
 
+    $(document).click(function(event){
+        if (!$(event.target).is('.search-box, .search-box *')) {
+            $('.search-form').fadeOut();
+        }
+        if (!$(event.target).is('.filter, .filter *')) {
+            $('.filter ul').fadeOut();
+        }
+    });
 	
 
 $('.mask').hide();

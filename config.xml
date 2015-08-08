@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget id="museo.efimero" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap = "http://phonegap.com/ns/1.0">
+<widget id="museo.efimero" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0">
     <name>Museo Efímero del Olvido</name>
     <description>
         Mapa interactivo de audios visita guiada museo efímero del olvido 2015
@@ -7,12 +7,14 @@
     <author email="info@8manos.com" href="http://8manos.com">
         8manos
     </author>
-
+    <feature name="http://api.phonegap.com/1.0/device" />
     <preference name='phonegap-version' value='cli-5.1.1' />
+    <preference name="permissions" value="none" />
     <preference name="orientation" value="landscape" />
     <preference name="fullscreen" value="true" />
     <preference name="BackgroundColor" value="#E48CB8" />
     <preference name="DisallowOverscroll" value="true"/>
+    <preference name="EnableViewportScale" value="true" />
 
     <icon src="icon.png" />
     <icon src="img/android/drawable-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi" />
