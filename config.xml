@@ -11,7 +11,7 @@
     <preference name='phonegap-version' value='cli-5.1.1' />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="landscape" />
-    <preference name="fullscreen" value="true" />
+
     <preference name="BackgroundColor" value="#E48CB8" />
     <preference name="DisallowOverscroll" value="true"/>
     <preference name="EnableViewportScale" value="true" />
@@ -27,5 +27,7 @@
     <icon src="img/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
     <icon src="img/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />  
 
+    <gap:plugin name="com.fridaydesigm.plugins.viewport_scale" version="0.9.3" />
+    
     <accesss origin="*" />
 </widget>
