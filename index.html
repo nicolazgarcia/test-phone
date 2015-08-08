@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>efimero</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/global.css" media="all" />
+<script type="text/javascript" charset="utf-8" src="cordova-1.7.0.js"></script>
+</head>
+<body>
+<section>
+	<article class="a">
+		<span class="cerrar">x</span>
+		<h5>A</h5>
+		<h6>Diseño Grafico - Edificio francisco de paula santander</h6>
+		<div class="pieza">
+			<h3>Miguel Canal</h3>
+			<h3>Esta es mi vereda  <span class="arrow">&raquo;</span></h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Esta es mi vereda</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('ada1');">Por el artista</li>
+
+					<!--<li class="cd" onClick="effSound('add1');">Por la curaduria</li>
+					<li class="cn" onClick="effSound('add3');">Audio de contexto de la obra</li>-->
+				</ul>
+				<ul class="audios">
+					<li data-val="cd"><audio id="" preload="none" src=""/></li>
+					<li data-val="ar"><audio id="ada1" preload="none" src="media/a1.mp3"/></li>
+					<li data-val="cn"><audio id="" preload="none" src=""/></li>
+				</ul>
+			</div>			
+		</div>
+	</article>
+	<article class="b">
+		<span class="cerrar">x</span>
+		<h5>B</h5>
+		<h6>Postgrados de Ciencias Humanas - Plazoleta</h6>
+		<div class="pieza">
+			<h3>Luz Ángela Lizarazo</h3>
+			<h3>Historias de jardín <span class="arrow">&raquo;</span></h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Historias de jardín</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('adb1');">Por el artista</li>
+					<!--
+					<li class="cd" onClick="effSound('add1');">Por la curaduria</li>					
+					<li class="cn" onClick="effSound('add3');">Audio de contexto de la obra</li>-->
+				</ul>
+				<ul class="audios">
+					<li data-val="cd"><audio id="" preload="none" src=""/></li>
+					<li data-val="ar"><audio id="adb1" preload="none" src="media/b1.mp3"/></li>
+					<li data-val="cn"><audio id="" preload="none" src=""/></li>
+				</ul>
+			</div>			
+		</div>
+	</article>
+	<article class="c">
+		<span class="cerrar">x</span>
+		<h5>C</h5>
+		<h6>Facultad de Ciencias Agronómicas</h6>
+		<div class="pieza">
+			<h3>José Ismael Manco</h3>
+			<h3>Intercambio de semillas y pensamiento</h3>			
+		</div>
+	</article>
+	<article class="d">
+		<span class="cerrar">x</span>
+		<h5>D</h5>
+		<h6>Museo de Arquitectura Leopoldo Rother</h6>
+		<div class="pieza">
+			<h3>Colectivo El Honorable Cartel</h3>
+			<h3>Buitres del Nuevo Mundo</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Buitres del Nuevo Mundo</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('add1');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="add1" preload="none" src="media/d1.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>Gerrit Stollbrock e Iván Sierra</h3>
+			<h3>La Siberia: recuerda al olvidar</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: La Siberia: recuerda al olvidar</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('add2');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="add2" preload="none" src="media/d2.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>Giovanni Vargas</h3>
+			<h3>Oasis</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Oasis</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('add3');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="add3" preload="none" src="media/d3.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>Gonzalo Angarita</h3>
+			<h3>Tres pilares para la utopía</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Tres pilares para la utopía</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('add4');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="add4" preload="none" src="media/d4.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>Gustavo Villa</h3>
+			<h3>Archivo de un parque zoológico</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Archivo de un parque zoológico</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('add5');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="add5" preload="none" src="media/d5.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>Jaime Iregui </h3>
+			<h3>Ciudad futura</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Ciudad futura</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('add6');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="add6" preload="none" src="media/d6.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>La Decanatura</h3>
+			<h3>Centro Espacial Satelital de Colombia</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Centro Espacial Satelital de Colombia</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('add7');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="add7" preload="none" src="media/d7.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>Laura Peña</h3>
+			<h3>De paso (venir abajo)</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: De paso (venir abajo)</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('add8');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="add8" preload="none" src="media/d8.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>Luis Carlos Tovar</h3>
+			<h3>Santander amenaza ruina</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Santander amenaza ruina</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('add9');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="add9" preload="none" src="media/d9.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>Luis Roldán</h3>
+			<h3>Guasca</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: Guasca</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('adda0');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="adda0" preload="none" src="media/d10.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="pieza">
+			<h3>Ximena Díaz</h3>
+			<h3>La Ruta del Sol</h3>
+			<div class="tarjeta">
+				<span class="volver">Regresar <span class="arrow">&laquo;</span></span>
+				<h4>Audios acerca de la pieza: La Ruta del Sol</h4>
+				<ul class="tipos">
+					<li class="ar" onClick="effSound('adda1');">Por el artista</li>
+				</ul>
+				<ul class="audios">
+					<li data-val="ar"><audio id="adda1" preload="none" src="media/d11.mp3"/></li>
+				</ul>
+			</div>			
+		</div>
+	</article>
+	<article class="e">
+		<span class="cerrar">x</span>
+		<h5>E</h5>
+		<h6>Biblioteca Central</h6>
+		<div class="pieza">
+			<h3>Andrés Caycedo</h3>
+			<h3>Lenin viene</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Catalina Jaramillo</h3>
+			<h3>Biblioteca ilegible de libros fantasma</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Grupo Nietzche</h3>
+			<h3>Historia Nacional del Olvido</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Juan Diego Celemín y Carolina Espejo</h3>
+			<h3>El Sietecolores: el bandolero de la leyenda</h3>			
+		</div>
+	</article>
+	<article class="f">
+		<span class="cerrar">x</span>
+		<h5>F</h5>
+		<h6>Facultad de Derecho y Ciencias Políticas Vestíbulo central, segundo piso</h6>
+		<div class="pieza">
+			<h3>Camilo Aguirre </h3>
+			<h3>Ciervos de bronce</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Juan David Laserna</h3>
+			<h3>mperfecto pretérito</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Mónica Páez</h3>
+			<h3>Dos más dos es igual a cinco</h3>			
+		</div>
+	</article>
+	<article class="g">
+		<span class="cerrar">x</span>
+		<h5>G</h5>
+		<h6>Escuela de Bellas Artes</h6>
+		<h6>Primer piso</h6>
+		<div class="pieza">
+			<h3>Lucas Ospina</h3>
+			<h3>Un artista del hambre</h3>			
+		</div>
+		<H6>Segundo piso</H6>
+		<div class="pieza">
+			<h3>Ana María Rueda</h3>
+			<h3>Hoy</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Colectivo Las disensuales </h3>
+			<h3>Trasegares</h3>			
+		</div>
+	</article>
+	<article class="h">
+		<span class="cerrar">x</span>
+		<h5>H</h5>
+		<h6>Edificio SINDÚ</h6>
+		<div class="pieza">
+			<h3>Juan Mejía</h3>
+			<h3>Pentimento</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Óscar Moreno</h3>
+			<h3>La casa de la frontera</h3>			
+		</div>
+		<h6>Auditorio</h6>
+		<div class="pieza">
+			<h3>Adriana Marmorek</h3>
+			<h3>Reliquia</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Blanca Ocasión</h3>
+			<h3>Reviviendo la cocina rural del municipio de Oicatá</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Camilo Parra</h3>
+			<h3>Desmembramiento en masa</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Camilo Sabogal</h3>
+			<h3>Eram Quod Es, Eris Quod sum. (Yo era lo que tú eres, tú serás lo que yo soy)</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Carolina Bácares</h3>
+			<h3>50 cartas</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Colectivo Escafandra</h3>
+			<h3>Correveidile</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Colectivo FAXine</h3>
+			<h3>Colectivo de dibujos, notas &amp; correspondencia entre artistas - transmisión en tiempo real </h3>			
+		</div>
+		<div class="pieza">
+			<h3>Getulio y El Zute</h3>
+			<h3>Puaquí semos campesinos</h3>			
+		</div>
+		<div class="pieza">
+			<h3>María Elvira Escallón</h3>
+			<h3>Una espada de hierro meteórico</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Oscar Ayala</h3>
+			<h3>Domesticando rinocerontes</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Populus Rural</h3>
+			<h3>La Escuelita del Instante</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Santiago González</h3>
+			<h3>Río Farfacá de Tunja, lugar de temporalidades, memoria y ensoñación</h3>			
+		</div>
+		<div class="pieza">
+			<h3>Wilman Zabala</h3>
+			<h3>Refranero boyacense</h3>			
+		</div>
+	</article>
+</section>
+<span class="mask"></span>
+<svg id="map" version="1.2" baseProfile="tiny" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="100%" height="80%" viewBox="0 0 963.778 517.323" xml:space="preserve">
+<rect id="fondo" fill="#696C71" width="100%" height="100%"/>
+	<g id="campus">
+		<polygon fill="#FFFFFF" points="0,-0.813 0,350.378 17.274,357.428 253.57,447.767 353.412,496.647 385.012,474.006 
+			449.413,493.526 452.291,502.327 464.533,512.247 476.015,517.323 537.952,517.323 566.051,474.567 603.49,493.526 
+			646.213,493.526 660.132,515.607 718.451,479.766 700.933,455.607 718.451,402.086 774.372,413.207 816.133,420.496 
+			844.744,46.167 847.766,-0.813 	"/>
+		<path fill="#C1C1C3" d="M351.649,498.484v3.843l24,11.103l2.745,3.894h97.621l-9.003-3.997l-14.72-11l-2.88-8.8l-64.4-19.52
+			L351.649,498.484z M712.932,431.367l-12,26.64l15.489,22.969l-57.654,34.311l-15.435-21.76h-39.84l-37.44-18.96l-27.1,42.756
+			h269.125l10.935-93.392l-34.88-11.045l-12.48-1.6l-53.199-9.2L712.932,431.367z"/>
+		<rect x="0" y="-0.814" fill="none" width="963.779" height="517.323"/>
+		<path fill="#FCE8F0" d="M580.452,266.007l-2.641,8.4c0,0,16.32,34.32,18.12,34.8c1.8,0.479,14.521-1.92,14.521-1.92
+			s47.04-23.28,48-26.4s1.68-11.361,1.68-11.361s-12.24-22.959-12.48-23.919c-0.239-0.96-5.52-4.8-7.68-4.32s-19.76,1.92-20.8,2.88
+			S580.452,266.007,580.452,266.007"/>
+		<path fill="#FCE8F0" d="M621.012,39.447c0,0-11.04-21.6-12.72-22.56s-12.18,0.72-13.771,2.28c-1.59,1.56-30.39,11.88-30.149,15
+			c0.24,3.12-0.721,8.15-0.721,8.15s11.761,19.45,13.681,21.37s9.583-1.44,11.271-1.92s23.769-12.4,23.769-12.4l8.64-8.927V39.447z"
+			/>
+		<path fill="#FCE8F0" d="M210.019,172.798c-1.887,0.729-40.927,10.009-41.247,10.969c-0.32,0.96-15.36,6.433-15.36,6.433
+			l-9.28,14.367l10.88,12.16h15.04l19.68-7.68l28.37-10.134L210.019,172.798z"/>
+		<polygon fill="#E0E0E0" points="490.052,461.847 485.572,477.527 493.092,479.287 491.812,484.727 495.012,486.167 
+			500.612,465.207 	"/>
+		<polygon fill="#E0E0E0" points="495.492,490.327 498.372,479.767 508.292,482.646 505.572,493.527 	"/>
+		<polygon fill="#E0E0E0" points="509.092,461.847 504.292,479.767 509.092,481.847 514.691,463.606 	"/>
+		<polygon fill="#E0E0E0" points="385.092,466.807 379.972,465.527 378.852,466.807 376.612,466.167 375.492,466.807 
+			374.052,465.527 375.652,459.127 374.052,458.167 384.452,428.727 395.972,431.447 390.852,447.767 386.052,447.767 
+			384.292,452.407 388.132,454.967 	"/>
+		<path fill="#E0E0E0" d="M367.652,442.967l-5.28,18.88c0,0-10.56-2.56-10.72-3.04s5.6-18.32,5.6-18.32L367.652,442.967z"/>
+		<polygon fill="#E0E0E0" points="305.092,436.087 315.812,440.487 321.092,425.847 330.532,428.727 333.572,420.247 
+			327.172,416.567 335.172,402.167 334.052,399.127 335.172,395.127 325.732,387.127 326.692,384.247 323.332,381.687 
+			321.252,384.567 308.452,379.287 303.812,377.367 303.812,374.967 289.412,368.727 289.412,365.847 286.212,364.887 
+			288.612,354.587 278.852,351.767 274.052,364.247 247.972,352.567 255.652,328.407 245.732,325.367 237.092,347.447 
+			234.692,346.967 233.092,350.007 234.052,350.487 228.292,368.887 224.772,367.767 223.012,371.606 224.132,373.287 
+			216.292,392.407 225.892,396.407 238.052,366.167 240.132,366.007 242.852,356.247 247.972,357.847 247.492,360.567 
+			276.932,371.606 275.732,375.287 273.252,376.087 272.452,378.967 278.372,381.847 281.412,378.007 285.412,379.606 
+			274.212,409.207 249.092,399.127 247.012,404.887 275.732,416.407 272.612,425.367 279.172,425.687 280.612,423.287 
+			288.452,426.167 290.052,422.487 277.892,418.007 279.332,413.207 281.892,414.487 295.172,382.927 304.452,386.327 
+			300.772,398.807 305.092,401.047 302.532,410.646 304.132,411.287 303.972,413.207 311.012,416.887 	"/>
+		<polygon fill="#E0E0E0" points="295.652,435.606 294.532,438.807 304.612,443.287 306.372,439.447 	"/>
+		<polygon fill="#E0E0E0" points="87.652,328.247 83.492,338.327 125.572,353.527 128.772,352.407 176.612,303.927 159.012,286.167 
+			154.052,290.327 151.172,288.407 141.252,297.687 138.852,296.407 135.652,299.767 137.572,302.487 132.612,306.967 
+			134.692,310.327 122.692,323.127 127.012,328.887 124.932,332.407 131.012,338.646 124.772,342.967 112.612,338.807 
+			111.492,333.847 107.332,335.767 	"/>
+		<polygon fill="#E0E0E0" points="71.332,296.727 76.612,302.327 92.612,286.967 86.372,280.567 	"/>
+		<polyline fill="#E0E0E0" points="79.812,311.606 81.972,313.207 85.732,308.727 83.492,306.967 79.812,310.967 	"/>
+		<polygon fill="#E0E0E0" points="85.732,306.167 98.372,319.847 102.852,314.647 90.372,300.407 	"/>
+		<polygon fill="#E0E0E0" points="96.132,295.927 91.812,300.407 100.292,309.367 104.932,304.247 	"/>
+		<polygon fill="#E0E0E0" points="105.732,314.646 100.292,319.847 101.732,322.007 107.972,317.367 	"/>
+		<polygon fill="#E0E0E0" points="107.972,294.487 112.452,300.407 142.692,269.687 136.292,264.407 	"/>
+		<polygon fill="#E0E0E0" points="142.692,259.606 146.532,264.407 163.332,248.087 159.332,242.967 	"/>
+		<polygon fill="#E0E0E0" points="162.532,262.646 172.292,272.887 182.372,262.646 172.452,252.247 	"/>
+		<polygon fill="#E0E0E0" points="183.492,276.927 193.812,287.287 219.972,262.567 209.572,250.967 207.172,253.687 
+			178.372,224.247 169.892,232.087 198.532,262.567 	"/>
+		<polygon fill="#E0E0E0" points="91.812,239.447 104.932,224.247 99.012,218.967 84.932,234.327 	"/>
+		<polygon fill="#E0E0E0" points="100.612,200.407 88.452,213.218 83.812,209.527 83.812,204.887 83.812,202.487 91.492,192.247 	"/>
+		<polygon fill="#E0E0E0" points="91.012,186.807 99.332,177.847 78.852,156.887 70.212,165.207 67.332,163.127 54.372,175.606 
+			72.132,195.927 76.852,192.247 79.492,193.207 88.132,184.407 	"/>
+		<polygon fill="#E0E0E0" points="60.132,191.447 47.972,179.927 43.012,184.247 54.372,197.047 	"/>
+		<polygon fill="#E0E0E0" points="-1.628,245.047 36.612,209.367 31.972,203.606 30.212,204.247 23.972,198.967 1.732,218.967 
+			2.372,220.566 -12.188,234.007 	"/>
+		<polygon fill="#E0E0E0" points="-0.988,247.126 3.972,252.887 14.212,242.967 9.412,238.167 	"/>
+		<polygon fill="#E0E0E0" points="125.172,130.407 132.412,122.247 125.172,114.807 118.212,122.607 	"/>
+		<polygon fill="#E0E0E0" points="143.652,130.407 148.212,135.447 153.012,129.447 148.332,124.887 	"/>
+		<polygon fill="#E0E0E0" points="167.172,110.007 169.892,121.047 173.412,121.047 171.492,108.807 	"/>
+		<path fill="#E0E0E0" d="M110.772,51.606l18.24,7.521l-3.7,14.4l-5.42-0.96v-2.88l-9.12-2.64c0,0-3.84,16.8-4.56,16.32
+			c-0.72-0.48-11.28-1.92-11.28-1.92l-3.92,0.48l6.8-24l9.12,1.92L110.772,51.606z"/>
+		<polyline fill="#E0E0E0" points="110.012,90.807 106.932,97.527 88.452,92.967 91.012,84.807 110.012,90.087 	"/>
+		<polygon fill="#E0E0E0" points="77.892,82.407 84.132,84.807 91.012,67.492 82.692,65.127 	"/>
+		<path fill="#E0E0E0" d="M66.372,80.247c0-0.72,4.8-16.658,4.8-16.658l-23.04-6.382l-5.04,17.76L66.372,80.247z"/>
+		<polygon fill="#E0E0E0" points="27.972,67.492 26.052,74.967 33.012,77.847 36.612,70.167 	"/>
+		<path fill="#E0E0E0" d="M135.972,37.767l1.44-5.52l-12.1-4.08l1.06-3.36l-40.08-12.48l-4.56,4.32l-10.56-4.32v-3.12l-15.6-3.36
+			l-1.44,5.76l1.92,0.96l-3.36,11.52l-14.16-3.84l-1.92,6l28.8,8.88l-0.48,3.12l2.88,1.44l-1.68,7.76l-16.08-5.6v-3.36l-4.56-1.2
+			l-2.4,11.28l38.88,12.24l4.8-16.56l11.04,3.2l3.12-14.24l-12.48-6l-4,3.84l-7.6-1.68l4.16-7.92L135.972,37.767z M71.172,27.207
+			l-11.04-3.12l3.12-9.12l11.28,5.04L71.172,27.207z"/>
+		<path fill="#E0E0E0" d="M259.572,257.606l6.72,19.32c0,0,38.4-13.56,37.92-15.24c-0.48-1.68-7.68-22.24-7.68-22.24l-36.96,16.32
+			V257.606z"/>
+		<polygon fill="#E0E0E0" points="279.492,244.887 276.132,240.807 272.772,242.847 254.292,248.967 249.732,236.727 
+			267.252,227.963 265.812,222.807 272.292,218.967 271.572,215.367 273.732,213.218 261.252,187.287 265.812,183.447 
+			264.612,181.767 269.652,180.087 272.292,185.847 269.892,188.72 278.466,211.287 281.894,209.607 284.292,214.527 
+			278.466,217.767 281.894,225.927 289.332,223.047 291.252,230.967 284.532,235.047 287.652,242.967 	"/>
+		<polygon fill="#E0E0E0" points="265.332,217.767 257.652,221.367 249.732,203.847 247.332,206.487 252.372,221.367 
+			244.452,226.407 236.292,203.847 255.972,195.927 	"/>
+		<polygon fill="#E0E0E0" points="218.052,180.087 218.052,183.447 221.412,183.447 225.252,194.727 223.332,195.927 
+			225.252,200.007 233.172,195.927 231.732,192.247 228.372,192.247 225.612,182.007 227.892,180.087 225.612,176.807 	"/>
+		<path fill="#E0E0E0" d="M218.052,150.807l4.8,14.88l-2.4,1.2l2.4,4.32l25.2-6.48l-3.36-5.04l-5.28-16.08l-6.36,1.76l3.24,15.04
+			c0,0-4.08,3.84-4.32,2.88c-0.24-0.96-5.52-16.186-5.52-16.186l-8.4,1.546V150.807z"/>
+		<polygon fill="#E0E0E0" points="246.852,141.927 248.052,147.101 250.812,145.367 258.372,165.207 255.012,168.567 
+			255.972,172.647 259.572,174.087 265.332,171.207 265.332,165.447 261.252,164.007 257.892,147.101 261.252,145.367 
+			258.612,139.287 249.732,142.407 248.052,140.247 	"/>
+		<polygon fill="#E0E0E0" points="237.972,134.007 236.292,130.167 219.732,135.447 219.732,138.327 	"/>
+		<polygon fill="#E0E0E0" points="246.852,121.047 245.172,114.807 241.092,114.807 237.972,103.767 234.852,103.767 234.852,97.527 
+			223.332,99.207 225.612,118.407 215.892,119.847 215.892,116.007 207.012,118.646 209.652,130.167 219.732,128.007 	"/>
+		<polygon fill="#E0E0E0" points="280.452,156.687 281.652,160.167 292.692,157.407 299.412,178.647 289.932,182.487 
+			289.932,188.407 303.012,183.687 304.932,184.647 328.692,176.807 316.452,141.207 308.532,141.207 291.252,148.407 
+			292.692,151.527 	"/>
+		<polygon fill="#E0E0E0" points="314.772,125.314 312.852,134.247 328.692,136.407 332.532,116.007 328.692,113.847 
+			331.572,102.262 322.692,100.167 319.332,111.927 314.772,111.447 311.652,122.247 	"/>
+		<polygon fill="#E0E0E0" points="274.372,102.262 274.372,107.727 285.492,106.167 285.492,100.167 	"/>
+		<polygon fill="#E0E0E0" points="277.572,138.327 279.932,143.606 282.612,141.207 280.452,136.407 	"/>
+		<polygon fill="#E0E0E0" points="287.892,143.606 287.892,147.101 293.412,145.354 293.412,142.407 	"/>
+		<polygon fill="#E0E0E0" points="291.252,124.167 293.412,130.167 298.212,127.167 296.772,122.487 	"/>
+		<polygon fill="#E0E0E0" points="298.212,97.527 300.612,102.262 317.652,97.527 315.732,90.567 311.652,92.007 309.972,87.447 
+			302.052,90.087 302.772,94.854 	"/>
+		<path fill="#E0E0E0" d="M294.732,83.126l3.48-19.538c0,0,9.36-0.382,9.72-4.702c0.36-4.32-7.68-5.16-6.6-6.24
+			c1.08-1.08,3.24-15.84,3.24-15.84l-6.36-1.2v2.64l-7.56-2.64l-1.32-2.88h-5.04l-3.84,16.56l-2.88,16.32h-5.28v3.84l3.84,1.2
+			l-0.24,4.923l4.04,2.037l0.52-4.8l9.666,2.763v6.597L294.732,83.126z"/>
+		<path fill="#E0E0E0" d="M405.732,174.087c0,0,38.16-21.12,37.68-22.08s-25.92-51.84-25.92-51.84l-42,22.32l-18.96-35.04h-2.88
+			l-5.52-7.44l-15.6,10.08l17.52,35.227l6.72-2.827l31.202,59.28L405.732,174.087z"/>
+		<polygon fill="#E0E0E0" points="378.132,95.847 384.344,107.727 391.092,103.947 384.344,90.807 	"/>
+		<polygon fill="#E0E0E0" points="354.612,65.606 360.612,74.487 369.012,71.127 378.132,68.727 387.974,85.287 399.252,80.007 
+			391.092,63.927 425.172,45.447 432.132,59.127 411.972,69.207 416.532,78.807 423.732,78.327 425.412,80.007 441.252,71.606 
+			439.332,68.247 445.332,65.367 453.252,75.927 471.732,65.367 470.052,62.727 475.332,59.367 468.852,49.047 448.932,59.367 
+			444.612,51.447 440.292,54.087 432.852,39.207 480.612,14.487 471.012,1.527 390.132,43.407 380.052,27.927 372.132,32.727 
+			373.572,35.847 354.612,46.646 359.172,55.287 378.132,46.167 384.612,57.927 368.772,66.567 363.732,59.847 	"/>
+		<path fill="#E0E0E0" d="M491.172,39.447l1.92,4.08l15.6-7.678l7.2,13.518l-13.2,8.8l1.92,5.52l14.641-7.2l9.52,12.96l-15.359,6.96
+			l2.96,6l14.64-6.72l7.2,11.76l-14.88,9.12l2.399,4.56l22.32-10.32l-3.36-8.4l-9.84-17.04l4.32-1.68l-6.48-14.32
+			c0,0-6,1.84-5.76,1.12c0.24-0.72-15.6-28.32-15.6-28.32l-6.721,5.04l1.2,2.64L491.172,39.447z"/>
+		<polygon fill="#E0E0E0" points="544.212,32.007 545.651,35.268 556.932,29.847 558.611,32.557 612.372,2.727 610.932,-2.793 
+			617.111,-5.193 622.212,-0.633 617.111,5.847 617.111,10.407 614.771,13.287 622.212,30.807 643.011,19.167 614.771,-31.354 
+			549.252,3.207 549.492,5.607 541.892,9.927 546.132,20.487 544.691,22.167 548.052,26.487 	"/>
+		<polyline fill="#E0E0E0" points="628.691,-33.514 634.932,-38.073 669.252,8.551 663.852,13.047 628.691,-32.553 	"/>
+		<polygon fill="#E0E0E0" points="635.892,-43.113 671.892,7.047 697.092,-10.953 661.092,-61.113 	"/>
+		<path fill="#E0E0E0" d="M521.892-47.137l13.2,26.823l-2.88,2.64l1.2,4.08h5.76l1.439,2.64l2.641-3.84l-1.36-1.92l41.68-21.36
+			l-24-40.56l-24.96,12.72l3.601,9.36c0,0-5.04,4.32-4.8,3.601c0.239-0.72-3.601-6-3.601-6l-6.479,3.6l2.64,4.8L521.892-47.137z"/>
+		<polygon fill="#E0E0E0" points="390.852,-35.673 393.892,-32.073 395.412,-32.073 397.572,-27.165 363.012,-8.793 373.572,13.767 
+			361.092,20.487 349.092,-0.394 322.212,13.287 316.932,4.167 346.932,-12.803 344.532,-21.993 354.612,-26.553 358.692,-20.313 	
+			"/>
+		<path fill="#E0E0E0" d="M808.132,107.727l4.16-2.04l-2.88-8.96l-16,4.4c0,0-1.601-8.56-6.08-6.32c-4.48,2.24-5.761,7.04-1.92,10.24
+			l0.319,3.2l-3.84-0.52l3.521,35.08l11.68-2.4v3.04l-11.68,3.654l1.279,4.666l16-4.666l1.92-5.254v-7.04h6.08l-2.56-11.52h2.56
+			L808.132,107.727z M795.651,121.367c0,0-0.96-12.48-1.279-13.64l5.76-1.72l2.88,15.36H795.651z"/>
+		<polygon fill="#E0E0E0" points="763.332,43.527 763.332,50.647 767.812,50.647 767.812,52.887 779.972,52.887 779.972,49.367 
+			801.412,48.207 799.492,39.447 768.452,40.44 768.452,43.527 	"/>
+		<polygon fill="#E0E0E0" points="745.092,10.007 745.092,13.047 757.249,15.207 774.852,16.606 774.852,20.567 790.852,20.567 
+			792.452,19.167 795.651,19.167 795.651,10.007 792.452,8.551 795.651,-13.993 790.532,-13.993 789.723,-10.755 777.731,-12.513 
+			774.852,0.407 775.172,4.887 748.932,3.287 748.932,7.047 	"/>
+		<polygon fill="#E0E0E0" points="641.965,442.646 650.052,459.606 636.612,468.247 638.212,474.007 665.731,458.327 
+			652.612,435.927 	"/>
+		<polygon fill="#F4C5DB" points="454.052,378.487 428.772,369.687 419.172,399.447 405.412,396.247 404.292,398.167 
+			398.372,396.567 393.572,411.287 399.812,413.207 403.972,402.007 420.932,406.487 421.892,402.967 425.412,403.927 
+			433.412,379.287 452.772,384.567 	"/>
+		<path fill="#F4C5DB" d="M387.972,374.687c0,0-5.6,0.92-5.28,6.2c0.32,5.28,7.2,6.08,9.76,2.24c2.56-3.84,0-7.04,0-7.04l6.08,4.017
+			c0,0-1.76-18.737-2.08-18.257c-0.32,0.48-13.773,9.12-13.773,9.12L387.972,374.687z"/>
+		<polygon fill="#F4C5DB" points="361.732,376.087 361.732,367.927 364.612,367.927 364.612,353.367 397.572,354.338 
+			397.572,349.207 400.612,349.207 400.612,343.927 372.292,343.287 371.972,340.887 364.932,340.887 364.612,334.327 
+			324.132,333.087 324.132,340.247 327.172,340.407 327.172,345.527 355.332,346.646 355.172,358.327 343.652,358.487 
+			343.012,360.567 335.172,360.887 335.012,366.807 342.852,367.127 342.852,374.687 	"/>
+		<polygon fill="#F4C5DB" points="416.292,280.646 414.372,282.927 413.172,287.547 425.652,300.807 423.812,313.047 
+			414.612,315.927 413.172,314.727 409.332,315.927 409.332,317.607 406.692,317.607 406.692,321.927 408.852,323.127 
+			410.292,325.767 425.652,324.087 434.532,325.767 439.092,331.287 444.612,329.607 444.612,323.127 447.492,320.247 
+			448.692,317.127 450.612,315.207 450.612,308.487 448.452,305.967 452.052,300.807 448.692,296.727 444.612,298.887 
+			439.332,294.807 423.812,288.807 	"/>
+		<polygon fill="#F4C5DB" points="530.052,259.527 499.572,276.927 504.132,287.367 503.172,289.287 522.132,324.567 
+			518.292,327.687 522.132,336.807 557.892,317.607 560.532,320.487 569.892,315.687 551.492,280.647 537.492,286.167 
+			538.932,288.807 524.532,296.967 516.612,282.327 536.532,272.727 	"/>
+		<path fill="#F4C5DB" d="M542.292,252.566l1.68,3.36l-0.84,1.68l2.52,6v1.68l5.841-2.64l3.76,4.56l-2.16,2.319l8.16,16.401
+			l10.56-5.28l-5.279-11.121l3.359-2.319l-6.24-10.8l11.28-6.48l4.08,6.48c0,0,26.64-13.2,26.4-13.92
+			c-0.24-0.72-4.08-9.054-4.08-9.054l-3.601,1.794l-2.88-3.3h-2.64c0,0-1.68-4.807-2.4-3.964c-0.72,0.844-3.359,2.284-3.359,2.284
+			l-0.96-2.284l-17.36,9.684h-3.28l-7.2,3.64l0.24,2.16L542.292,252.566z"/>
+		<polygon fill="#F4C5DB" points="593.651,220.887 601.812,195.447 597.731,192.327 599.892,187.047 581.651,180.807 
+			566.532,173.847 551.492,197.367 562.212,220.887 	"/>
+		<path fill="#F4C5DB" d="M583.812,95.367l3.12,5.28l-1.56,1.92l18.76,24.72l9.099-4.8l9.222,9.12l14.88-11.52l3.12,1.92l6.479-6.48
+			l18.96,24.88l3.36-2.32l11.04,13.68l10.32-6.24l-3.601-5.12l1.2-1.6l-7.92-10.08c0,0,1.439-1.92,0.72-1.92s-5.04-8.88-5.04-8.88
+			l1.68-2.16l-18-21.84l-3.359,1.68l-4.8-6.96l1.68-2.88l-17.04-22.08l-9.12,7.44l3.601,6.24l-2.641,1.92l3.84,4.32l-2.64,2.4
+			l3.6,5.28l-11.04,9.12l-19.92-23.76l-7.29,5.04l1.771,3.84L583.812,95.367z"/>
+		<polygon fill="#F4C5DB" points="341.652,319.447 341.652,305.967 316.932,303.447 313.412,296.407 285.892,294.487 
+			283.012,299.606 283.012,306.967 309.201,309.527 312.332,319.447 	"/>
+		<polygon fill="#F4C5DB" points="654.852,151.767 651.492,159.447 662.532,180.567 657.012,183.687 670.452,209.127 
+			643.011,225.687 661.092,229.527 663.012,232.407 673.571,233.433 674.771,227.864 671.892,220.887 676.691,219.447 
+			688.212,220.887 672.852,191.607 676.932,188.967 657.972,151.767 	"/>
+		<polygon fill="#F4C5DB" points="682.372,291.606 683.972,298.167 679.492,300.887 697.412,336.807 703.492,334.807 
+			705.412,339.567 726.532,328.407 718.452,312.087 731.651,305.967 723.372,290.327 730.052,285.927 721.412,267.207 
+			714.052,269.526 711.731,267.207 704.132,270.807 709.571,283.147 696.452,288.727 694.532,285.927 	"/>
+		<path fill="#F4C5DB" d="M743.172,92.247l-1.68-2.16h-19.681l-1.92-5.52l3.84-0.72c0,0,0.24-2.4,0.24-3.12c0-0.72,1.2-4.56,1.2-4.56
+			l8.399,0.479l1.44,2.88l1.92-2.4l-1.68-3.12l5.76-9.733l-9.36-5.627l-4.08-12.72l-1.68,0.48l-1.2-6.96l-1.68,0.993l-3.84-6.513
+			l-5.28-9.04l-5.76,1.12l-10.08-10.8l-3.6,2.64l8.64,20.16l4.32,4.8l0.72,3.36l-8.16,3.2l-4.56-6.56l-1.2-3.36h-5.04h-4.08
+			l-3.04,3.36l-2.56,4.64l2.239,3.52h4.48l2.72,7.2l-3.84,4.08l5.52,3.12l-1.68,4.56l2.88,1.92l-1.2,3.84l2.881,1.68v6l4.079-1.2
+			l1.921,5.28l-3.12,2.64l1.439,2.64l12.721-4.08l1.199,6l-8.88,3.36l3.12,3.12h4.32h2.64c0,0,6-2.16,6.72-2.16
+			c0.721,0,20.641,0.72,20.641,0.72v-2.88l4.8-0.96L743.172,92.247z M719.651,80.007l-7.359,1.68l-11.12-24.479l3.84-0.48l3.12,4.08
+			l8.16-1.44v-3.84l3.12-1.52l2.159,10.267l-1.92,1.333V80.007z"/>
+		<rect x="726.132" y="127.766" fill="#F4C5DB" width="8.88" height="5.04"/>
+		<polygon fill="#F4C5DB" points="733.092,110.247 733.092,113.607 741.492,111.927 741.492,108.567 	"/>
+		<rect x="741.492" y="115.286" fill="#F4C5DB" width="5.521" height="4.32"/>
+		
+			<path fill="none" stroke="#EEAFCD" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M815.99,421.948c-1.458-0.741-31.858-9.061-31.858-9.061l-12.479-1.6"/>
+		
+			<polyline fill="none" stroke="#F7D2E3" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			443.04,441.62 431.491,483.927 431.491,493.526 444.611,504.178 463.491,515.287 	"/>
+		
+			<polyline fill="none" stroke="#EEAFCD" stroke-width="8.64" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			-334.908,107.727 -141.948,-91.113 -29.628,-164.073 -1.788,-185.193 411.972,-632.553 	"/>
+		
+			<polyline fill="none" stroke="#EEAFCD" stroke-width="8.64" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			218.735,-12.803 50.052,-67.113 22.212,-85.353 -29.628,-164.073 -192.828,-418.473 -318.588,-620.073 	"/>
+		
+			<line fill="none" stroke="#EEAFCD" stroke-width="8.64" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="22.212" y1="-85.354" x2="-262.923" y2="213.218"/>
+		
+			<polyline fill="none" stroke="#EEAFCD" stroke-width="8.64" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			198.149,61.83 185.412,52.247 169.412,47.446 145.412,51.606 126.211,52.887 91.012,49.367 	"/>
+		
+			<polyline fill="none" stroke="#EEAFCD" stroke-width="8.64" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			145.412,51.606 155.012,65.367 178.692,74.646 194.372,75.57 	"/>
+		
+			<polyline fill="none" stroke="#EEAFCD" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			757.249,269.526 763.012,273.367 777.412,303.387 788.612,305.967 805.572,305.967 851.013,290.967 911.492,307.607 
+			923.652,303.387 931.013,269.526 	"/>
+		
+			<polyline fill="none" stroke="#EEAFCD" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			805.572,305.967 794.372,313.687 794.372,322.007 803.012,333.087 	"/>
+		
+			<polyline fill="none" stroke="#F7D2E3" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			606.536,558.8 619.012,546.327 644.292,527.446 718.451,479.767 777.092,438.167 	"/>
+		
+			<polyline fill="none" stroke="#F7D2E3" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			700.932,458.007 718.452,479.767 759.619,539.328 	"/>
+		
+			<polyline fill="none" stroke="#F7D2E3" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			493.661,626.798 467.012,584.727 501.892,563.927 524.052,540.247 546.372,498.967 566.052,474.567 	"/>
+		
+			<line fill="none" stroke="#EEAFCD" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="771.651" y1="411.287" x2="718.452" y2="402.087"/>
+		
+			<polyline fill="none" stroke="#EEAFCD" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			211.723,178.305 187.332,186.967 166.852,191.447 156.932,202.646 160.452,210.327 176.132,207.447 192.132,204.566 
+			200.772,204.247 218.102,198.913 	"/>
+		
+			<line fill="none" stroke="#EEAFCD" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="172.549" y1="190.2" x2="176.132" y2="207.446"/>
+		
+			<line fill="none" stroke="#EEAFCD" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="187.332" y1="186.967" x2="192.132" y2="204.567"/>
+		
+			<polyline fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			274.372,4.167 352.452,26.967 362.052,29.847 372.612,24.407 465.092,-23.593 475.652,-26.793 513.412,-20.313 498.691,-51.753 	
+			"/>
+		
+			<polyline fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			513.412,-20.313 528.771,11.287 537.092,6.167 539.012,1.047 535.812,-5.193 570.372,-20.313 	"/>
+		
+			<polyline fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			528.771,11.287 568.132,87.447 596.292,130.407 606.212,135.767 640.771,143.767 659.972,151.127 668.611,162.647 686.212,193.687 
+			694.212,206.167 699.731,208.407 715.651,223.447 733.252,243.607 748.932,259.927 750.852,266.327 757.249,269.526 	"/>
+		
+			<polyline fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			750.852,266.327 692.932,249.367 636.932,235.927 586.372,225.687 565.252,232.727 528.771,252.887 493.092,274.327 
+			465.092,373.287 444.612,440.487 	"/>
+		
+			<line fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="457.572" y1="373.287" x2="471.492" y2="376.087"/>
+		<polygon fill="#FCE8F0" points="502.852,201.087 542.292,185.239 566.212,232.407 527.707,253.527 	"/>
+		
+			<polyline fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			492.356,276.927 483.652,274.007 469.252,269.526 463.812,253.527 456.132,234.007 436.932,193.527 484.292,193.527 
+			502.853,201.087 528.772,252.887 	"/>
+		
+			<polyline fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			563.975,233.433 542.852,202.646 542.852,187.927 534.852,149.526 539.332,129.046 545.731,103.767 568.132,87.446 	"/>
+		
+			<polyline fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			406.692,338.727 422.772,336.807 429.252,338.727 431.652,342.327 	"/>
+		
+			<path fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M612.372,35.767c-0.4-0.8-5.681-10.88-5.681-10.88l-30.88,14.72v8.64l5.76,5.76l10.721-4.64l11.84-6.56l9.099-4.582"/>
+		
+			<line fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="584.915" y1="35.268" x2="592.292" y2="49.366"/>
+		
+			<line fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="598.29" y1="28.892" x2="604.132" y2="42.807"/>
+		
+			<polygon fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			602.357,305.967 583.812,274.646 589.252,265.687 628.932,246.807 641.965,246.807 645.571,253.527 654.531,267.207 
+			654.531,276.927 	"/>
+		
+			<line fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="595.605" y1="294.544" x2="651.818" y2="263.136"/>
+		
+			<line fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="588.846" y1="283.148" x2="645.571" y2="253.527"/>
+		
+			<line fill="none" stroke="#B1B2B5" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="721.938" y1="8.551" x2="704.771" y2="15.207"/>
+		
+			<polygon fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			517.092,450.567 711.012,348.327 728.292,335.367 752.052,286.646 764.292,246.327 770.292,180.327 760.452,104.007 
+			730.212,25.767 715.332,-5.193 685.332,-50.793 615.012,-126.633 592.212,-141.753 572.052,-149.193 438.132,-189.753 
+			242.292,-85.593 218.292,-11.433 193.812,77.607 196.212,116.487 208.932,169.287 227.652,229.767 237.972,254.967 
+			261.732,292.167 301.332,344.487 342.132,384.567 372.612,408.327 399.972,423.932 444.372,442.167 474.852,450.567 	"/>
+		
+			<polyline fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			457.572,373.287 438.132,366.567 411.252,353.127 404.532,338.967 387.732,337.527 364.692,319.527 341.652,292.407 
+			316.932,261.687 300.612,230.967 284.532,200.727 270.612,152.727 264.132,109.527 261.252,83.367 263.172,52.167 272.292,4.167 
+			294.372,-11.913 487.332,-112.953 497.412,-129.033 507.437,-168.763 	"/>
+		
+			<line fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="261.732" y1="292.167" x2="316.932" y2="261.687"/>
+		
+			<polyline fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			278.466,282.927 289.332,289.287 327.492,292.167 339.937,290.275 	"/>
+		
+			<polyline fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			341.652,292.407 376.932,259.527 401.412,242.967 420.372,232.407 	"/>
+		
+			<polyline fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			300.612,230.967 406.692,176.247 420.372,171.207 427.572,174.567 436.932,193.527 	"/>
+		
+			<line fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="641.965" y1="384.73" x2="601.332" y2="303.927"/>
+		
+			<line fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="606.536" y1="403.409" x2="623.651" y2="440.487"/>
+		
+			<polyline fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			715.332,-5.193 658.452,25.767 623.172,43.527 612.372,37.767 	"/>
+		
+			<polyline fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			697.092,241.287 699.731,208.407 701.172,149.367 689.412,97.527 677.412,65.127 658.452,25.767 614.052,-41.193 601.812,-61.113 	
+			"/>
+		
+			<line fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="218.735" y1="-12.803" x2="272.292" y2="4.167"/>
+		
+			<path fill="none" stroke="#E48CB8" stroke-width="28.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M1383.492,384.73c-3.841,1.277-190.08-25.123-190.08-25.123l-164.16-26.521l-201.378-38.543"/>
+		
+			<polyline fill="none" stroke="#E48CB8" stroke-width="28.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			-297.468,594.967 -62.268,443.287 -23.4,342.327 	"/>
+		<polygon fill="#E0E0E0" points="492.292,494.327 490.532,502.327 484.292,501.047 484.292,498.327 479.812,496.567 
+			481.252,490.967 	"/>
+		
+			<line fill="none" stroke="#F7D2E3" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="603.492" y1="493.527" x2="582.532" y2="555.927"/>
+		
+			<line fill="none" stroke="#F7D2E3" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="643.332" y1="493.527" x2="658.767" y2="518.141"/>
+		
+			<line fill="none" stroke="#F7D2E3" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="680.483" y1="504.178" x2="724.017" y2="564.028"/>
+		
+			<polyline fill="none" stroke="#F7D2E3" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			467.012,584.727 450.692,558.801 463.492,515.287 525.344,537.858 590.115,560.779 	"/>
+		
+			<path fill="none" stroke="#F7D2E3" stroke-width="14.88" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M807.784,505.895c0,0-291.995,202.778-292.382,202.14"/>
+		
+			<polyline fill="none" stroke="#E48CB8" stroke-width="28.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			700.932,936.087 778.691,758.486 807.492,508.887 826.446,314.967 827.874,294.545 839.172,132.807 864.132,-255.273 
+			869.892,-379.113 	"/>
+		
+			<polyline fill="none" stroke="#E48CB8" stroke-width="28.8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			663.492,946.646 567.492,794.007 468.612,630.807 373.572,510.807 283.012,456.087 -38.268,336.807 -230.268,256.407 
+			-319.548,138.327 -358.908,79.767 -563.388,-227.433 	"/>
+		
+			<polyline fill="none" stroke="#696C71" stroke-width="7.68" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			473.412,376.646 508.212,381.207 518.771,395.606 539.412,440.727 566.052,474.567 603.492,493.527 643.332,493.527 
+			700.932,458.007 712.932,431.367 718.452,402.087 716.771,389.606 709.812,368.487 699.61,354.338 	"/>
+	</g>
+	<g id="signals">
+		<text transform="matrix(1 0 0 1 95.7168 486.2036)" fill="#FFFFFE"  font-size="12">Entrada peatonal</text>
+		
+		<g>
+			<rect x="416.4" y="464.311" fill="#696C71" width="35.027" height="35.027"/>
+			<rect x="427.042" y="467.831" fill="none" width="14.627" height="28.084"/>
+			<path fill="#FFFFFE" d="M433.627,472.328c0.617-0.02,1.134-0.258,1.552-0.716c0.418-0.458,0.616-0.995,0.597-1.611
+				c-0.02-0.617-0.249-1.144-0.687-1.582c-0.437-0.438-0.965-0.647-1.581-0.627c-0.617,0.02-1.134,0.259-1.552,0.717
+				c-0.418,0.457-0.627,0.994-0.627,1.611s0.229,1.144,0.687,1.581C432.473,472.139,433.01,472.348,433.627,472.328"/>
+			<path fill="#FFFFFE" d="M441.176,479.877l-3.282-1.79l-2.686-4.297c-0.517-0.637-1.154-0.955-1.91-0.955
+				c-0.517,0-1.014,0.219-1.492,0.656l-4.058,4.118c-0.119,0.159-0.199,0.339-0.239,0.537l-0.537,4.596v0.119
+				c0,0.279,0.1,0.517,0.299,0.716c0.199,0.199,0.437,0.299,0.716,0.299c0.278,0,0.507-0.1,0.686-0.299
+				c0.179-0.199,0.289-0.418,0.328-0.656l0.418-3.939l1.432-1.432l-1.313,10.981l-2.327,5.192c-0.08,0.239-0.119,0.457-0.119,0.657
+				c0,0.437,0.149,0.805,0.447,1.104c0.299,0.298,0.667,0.427,1.104,0.388c0.597,0,1.035-0.28,1.313-0.836l2.507-5.61
+				c0-0.04,0.02-0.109,0.059-0.209c0.04-0.099,0.08-0.189,0.12-0.268c0.04-0.08,0.06-0.16,0.06-0.239l0.298-2.686l2.566,8.833
+				c0.279,0.716,0.776,1.055,1.492,1.015c0.398,0,0.746-0.15,1.045-0.448c0.298-0.298,0.447-0.667,0.447-1.104
+				c0-0.04-0.01-0.09-0.03-0.149c-0.019-0.06-0.03-0.11-0.03-0.15l-3.58-12.234l0.417-3.999l1.015,1.612
+				c0.08,0.119,0.179,0.219,0.299,0.298l3.521,1.969c0.238,0.08,0.397,0.12,0.477,0.12c0.279,0,0.517-0.109,0.716-0.328
+				c0.199-0.219,0.299-0.468,0.299-0.746C441.654,480.355,441.495,480.076,441.176,479.877"/>
+			<rect x="416.4" y="464.551" fill="none" stroke="#F9DCE9" stroke-width="2.25" width="35.027" height="35.027"/>
+		</g>
+		<g>
+			<rect x="739.116" y="251.035" fill="#696C71" width="35.027" height="35.027"/>
+			<rect x="749.759" y="254.555" fill="none" width="14.626" height="28.084"/>
+			<path fill="#FFFFFE" d="M756.343,259.051c0.617-0.02,1.135-0.258,1.553-0.716s0.615-0.995,0.597-1.611
+				c-0.021-0.617-0.249-1.145-0.688-1.582c-0.437-0.438-0.965-0.647-1.581-0.627c-0.616,0.02-1.134,0.259-1.552,0.717
+				c-0.418,0.457-0.627,0.994-0.627,1.611c0,0.617,0.229,1.144,0.688,1.582C755.189,258.862,755.727,259.071,756.343,259.051"/>
+			<path fill="#FFFFFE" d="M763.893,266.6l-3.282-1.79l-2.686-4.297c-0.518-0.637-1.154-0.955-1.91-0.955
+				c-0.517,0-1.014,0.219-1.492,0.656l-4.058,4.118c-0.119,0.159-0.199,0.339-0.239,0.537l-0.537,4.596v0.119
+				c0,0.279,0.101,0.517,0.299,0.716c0.199,0.199,0.438,0.299,0.717,0.299c0.277,0,0.507-0.1,0.686-0.299
+				c0.179-0.199,0.289-0.418,0.328-0.656l0.418-3.939l1.432-1.432l-1.313,10.981l-2.327,5.192c-0.08,0.239-0.119,0.457-0.119,0.657
+				c0,0.437,0.149,0.805,0.447,1.104c0.299,0.298,0.667,0.427,1.104,0.388c0.598,0,1.035-0.28,1.313-0.836l2.507-5.61
+				c0-0.04,0.02-0.109,0.059-0.209c0.04-0.099,0.08-0.189,0.12-0.268c0.04-0.08,0.061-0.16,0.061-0.239l0.298-2.686l2.565,8.833
+				c0.279,0.716,0.776,1.055,1.492,1.015c0.398,0,0.746-0.15,1.045-0.448c0.298-0.298,0.447-0.667,0.447-1.104
+				c0-0.04-0.01-0.09-0.03-0.149c-0.019-0.06-0.029-0.11-0.029-0.149l-3.58-12.235l0.417-3.999l1.015,1.612
+				c0.08,0.119,0.179,0.219,0.299,0.298l3.521,1.969c0.237,0.08,0.396,0.12,0.477,0.12c0.279,0,0.518-0.109,0.716-0.328
+				c0.199-0.219,0.299-0.468,0.299-0.746C764.37,267.079,764.212,266.799,763.893,266.6"/>
+			<rect x="739.116" y="251.275" fill="none" stroke="#F9DCE9" stroke-width="2.25" width="35.027" height="35.027"/>
+		</g>
+		<g>
+			<path fill="#FFFFFE" d="M68.927,476.164c0.411-0.013,0.756-0.172,1.035-0.477c0.278-0.306,0.411-0.664,0.397-1.075
+				c-0.013-0.411-0.165-0.762-0.457-1.054s-0.643-0.431-1.054-0.418c-0.412,0.014-0.757,0.173-1.035,0.478
+				c-0.279,0.305-0.418,0.663-0.418,1.074s0.153,0.762,0.458,1.054C68.158,476.038,68.516,476.176,68.927,476.164"/>
+			<path fill="#FFFFFE" d="M73.96,481.196l-2.188-1.194l-1.791-2.864c-0.345-0.425-0.769-0.637-1.273-0.637
+				c-0.345,0-0.676,0.146-0.994,0.438l-2.706,2.745c-0.08,0.106-0.133,0.226-0.159,0.358l-0.358,3.064v0.079
+				c0,0.186,0.066,0.345,0.199,0.478c0.132,0.132,0.291,0.199,0.477,0.199s0.338-0.067,0.458-0.199
+				c0.119-0.133,0.192-0.279,0.218-0.438l0.279-2.626l0.955-0.955l-0.876,7.321l-1.551,3.462c-0.053,0.159-0.08,0.305-0.08,0.437
+				c0,0.292,0.1,0.538,0.299,0.736c0.199,0.199,0.444,0.286,0.736,0.259c0.398,0,0.689-0.186,0.875-0.557l1.671-3.74
+				c0-0.027,0.013-0.073,0.04-0.139c0.027-0.067,0.053-0.126,0.08-0.179c0.026-0.053,0.039-0.107,0.039-0.159l0.199-1.791
+				l1.711,5.889c0.186,0.477,0.517,0.703,0.995,0.676c0.265,0,0.497-0.099,0.696-0.298c0.199-0.199,0.298-0.445,0.298-0.736
+				c0-0.027-0.006-0.06-0.019-0.1c-0.014-0.039-0.02-0.073-0.02-0.099l-2.388-8.157l0.279-2.666l0.676,1.075
+				c0.053,0.079,0.12,0.146,0.199,0.199l2.348,1.313c0.159,0.053,0.265,0.079,0.318,0.079c0.186,0,0.345-0.073,0.478-0.218
+				c0.132-0.147,0.198-0.312,0.198-0.498C74.278,481.515,74.172,481.33,73.96,481.196"/>
+			<rect x="57.442" y="470.98" fill="none" stroke="#F9DCE9" stroke-width="1.5" width="23.351" height="23.351"/>
+		</g>
+	</g>
+
+
+	<g class="zona" id="h">
+		<circle fill="#FFFFFF" stroke="#E798BF" stroke-width="2" cx="704.44" cy="123.1" r="15"/>
+		<text transform="matrix(1 0 0 1 697 131.80)" fill="#E798BF"  font-size="24">H</text>
+		<path fill="#E48CB8" d="M747.012,141.687l-28.8-1.28v31.28h-1.92v29.279v0v8.16h28.954v-6.72h0.086L747.012,141.687z
+			 M722.771,172.406l14.4,0.24v28.319h-14.4V172.406z"/>
+	</g>
+	<g class="zona" id="g">
+		<circle fill="#FFFFFF" stroke="#E798BF" stroke-width="2" cx="546.356" cy="111.087" r="15"/>
+		<text transform="matrix(1 0 0 1 538.2 119.6064)" fill="#E798BF"  font-size="24">G</text>
+		<polygon fill="#E48CB8" points="587.101,116.384 573.492,123.446 568.132,118.167 564.372,119.915 564.372,127.046 
+			570.132,140.406 583.813,166.167 587.101,166.167 592.212,175.767 597.013,175.767 597.972,171.406 594.521,163.767 
+			606.132,157.526 603.732,153.687 594.521,158.006 576.652,127.526 590.383,121.393 	"/>
+	</g>
+	<g class="zona" id="f">
+		<circle fill="#FFFFFF" stroke="#E798BF" stroke-width="2" cx="406.388" cy="175.996" r="15"/>
+		<text transform="matrix(1 0 0 1 400.2 184.5)" fill="#E798BF"  font-size="24">F</text>
+		<path fill="#E48CB8" d="M427.572,258.807l3.6,8.4c0,0,26.88-14.16,26.64-14.88c-0.24-0.72-2.88-8.16-2.88-8.16l2.882-1.68
+			c0,0-28.562-54.48-28.442-53.76c0.12,0.72-29.88,18-29.88,18l3.6,6.96l18.72-9.6l10.32,18.479l-1.68,1.92l1.92,4.8l2.88-1.324
+			l10.32,19.804L427.572,258.807z"/>
+	</g>
+	<g class="zona" id="e">
+		<circle fill="#FFFFFF" stroke="#E798BF" stroke-width="2" cx="489" cy="185" r="15"/>
+		<text transform="matrix(1 0 0 1 482.8887 193.5)" fill="#E798BF"  font-size="24">E</text>
+		<polygon fill="#E48CB8" points="495.972,209.847 493.092,205.767 482.052,212.007 482.052,215.126 476.292,217.767 
+			476.292,219.927 471.732,222.087 471.732,225.687 468.372,227.963 489.012,269.525 495.972,266.247 496.932,262.407 
+			504.372,257.847 504.372,252.327 510.372,249.687 510.372,247.287 516.132,244.167 516.132,241.287 521.146,237.646 
+			505.193,205.767 	"/>		
+	</g>
+	<g class="zona" id="d">
+		<circle fill="#FFFFFF" stroke="#E798BF" stroke-width="2" cx="475.202" cy="322.248" r="15"/>
+		<text transform="matrix(1 0 0 1 468.5 330.2861)" fill="#E798BF"  font-size="24">D</text>
+		<polygon fill="#E48CB8" points="485.892,339.566 483.731,348.087 488.292,350.007 486.012,358.167 498.372,362.247 
+			496.452,370.167 507.437,373.287 510.132,363.687 504.852,360.566 507.437,351.927 503.172,348.807 504.372,345.447 	"/>
+	</g>
+	<g class="zona" id="c">
+		<circle fill="#FFFFFF" stroke="#E798BF" stroke-width="2" cx="142.132" cy="141.006" r="15"/>
+		<polygon fill="#E798BF" points="142.692,203.447 149.892,195.927 143.812,189.207 147.652,184.087 146.292,182.007 
+			169.892,159.287 166.052,155.767 161.092,160.087 156.932,155.767 141.252,169.847 126.852,157.527 122.532,161.367 
+			108.132,147.101 104.932,148.567 101.412,145.367 94.932,152.247 113.092,170.327 104.932,179.447 110.692,184.247 
+			124.452,170.487 136.132,182.646 125.412,195.606 115.812,188.407 110.372,194.646 122.692,208.247 136.132,196.567 	"/>
+		<text transform="matrix(1 0 0 1 134.1753 148.8125)" fill="#E798BF"  font-size="24">C</text>
+	</g>
+	<g class="zona" id="b">
+		<circle fill="#FFFFFF" stroke="#E798BF" stroke-width="2" cx="207.898" cy="287.287" r="15"/>
+		<text transform="matrix(1 0 0 1 201.5 295.3184)" fill="#E798BF"  font-size="24">B</text>
+		<path fill="#E798BF" d="M222.692,332.567l-0.96-12l-6.24-9.92l-7.84-3.68l-13.84,0.8l-8.4,11.68l-9.28,1.44v8.64l3.36,0.48
+			l-16.16,27.68l4.64,3.36l-2.4,5.76l-0.16,3.36l21.28,12.76l2.88-3.96l1.92,1.28l-2.24,4.96l2.88,2.56l5.12-0.64l0.96-2.4l-2.08-0.8
+			l3.04-4.32l3.2,1.44l1.92-1.28l1.92,0.16l20.96-44L222.692,332.567z M201.732,332.887c-3.711,0-6.72-3.009-6.72-6.72
+			s3.009-6.72,6.72-6.72s6.72,3.009,6.72,6.72S205.443,332.887,201.732,332.887"/>
+	</g>
+	<g class="zona" id="a">
+		<circle fill="#FFFFFF" stroke="#E798BF" stroke-width="2" cx="453" cy="369.687" r="15"/>
+		<text transform="matrix(1 0 0 1 446.1777 376.2139)" fill="#E798BF"  font-size="24">A</text>
+		<polygon fill="#E48CB8" points="470.052,383.127 468.612,387.927 487.092,393.687 477.852,426.087 498.372,432.087 
+			496.932,441.447 498.372,441.447 498.372,443.367 510.132,446.007 512.771,440.487 517.332,442.167 524.052,419.847 
+			507.437,414.567 510.132,399.927 495.012,394.407 496.332,390.567 	"/>
+	</g>
+
+	<g id="guias">
+		<text transform="matrix(0.9397 0.342 -0.342 0.9397 104.0386 394.5415)" fill="#FFFFFE"  font-size="12">Av. El Dorado</text>
+		
+		<text transform="matrix(1 0 0 1 524.7451 222.0908)" fill="#696C71"  font-size="10">Plaza</text>
+		<text transform="matrix(1 0 0 1 527.1934 232.0908)" fill="#696C71"  font-size="10">Che</text>
+		<text transform="matrix(0.9848 0.1736 -0.1736 0.9848 863.9668 305.6475)" fill="#FFFFFE"  font-size="12">Calle 45</text>
+		<text transform="matrix(0.1045 -0.9945 0.9945 0.1045 822.4023 419.0068)" fill="#FFFFFE"  font-size="12">Av. Carrera 30</text>
+		
+		<text transform="matrix(1 0 0 1 689.5371 302.7344)" fill="#696C71"  font-size="10">Museo </text>
+		<text transform="matrix(1 0 0 1 687.3184 312.7344)" fill="#696C71"  font-size="10">de Arte</text>
+
+		<text transform="matrix(1 0 0 1 593.5947 275.8091)" fill="#696C71"  font-size="10">Parqueadero</text>
+		<text transform="matrix(1 0 0 1 554.835 191.4473)" fill="#696C71"  font-size="10">Auditorio</text>
+		<text transform="matrix(1 0 0 1 565.1396 201.4473)" fill="#696C71"  font-size="10">León </text>
+		<text transform="matrix(1 0 0 1 556.998 211.4473)" fill="#696C71"  font-size="10">de Greif</text>
+	</g>
+</svg>
+<footer></footer>
+
+<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
