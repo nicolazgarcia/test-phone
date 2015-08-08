@@ -1,6 +1,15 @@
 var currentPlayer;
 function effSound(soundobj) {
- var thissound=document.getElementById(soundobj);
+var thissound=document.getElementById(soundobj);
+thissound.addEventListener('ended', function() {
+   //alert("ended");
+   thissound.currentTime = 0;
+   //audio.play();
+   $('.tipos li').removeClass('active');
+});     
+
+//audio.play();
+
  if(currentPlayer  && currentPlayer != thissound) {
       currentPlayer.pause(); 
  }
