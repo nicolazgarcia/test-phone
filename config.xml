@@ -8,6 +8,9 @@
         8manos
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+
     <preference name='phonegap-version' value='cli-5.1.1' />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="landscape" />
@@ -26,6 +29,9 @@
     <icon src="img/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
     <icon src="img/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
     <icon src="img/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
+    
+
+    <!--<gap:plugin name="org.apache.cordova.media" />-->
 
     <!--
     <gap:plugin name="com.phonegap.plugins.childbrowser" version="5.0.0" />

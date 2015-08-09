@@ -17,12 +17,23 @@ thissound.addEventListener('ended', function() {
             thissound.play();
     else
         thissound.pause();
-        thissound.currentTime = 0;
+        //thissound.currentTime = 0;
          currentPlayer = thissound;
 }
-
-	
-$('.cerrar, .mask').click(function(){
+/*
+function playAudio(id) {
+    var audioElement = document.getElementById(id);
+    var url = audioElement.getAttribute('src');
+    var my_media = new Media(url,
+    // success callback
+     function () { console.log("playAudio():Audio Success"); },
+    // error callback
+     function (err) { console.log("playAudio():Audio Error: " + err); }
+);
+       // Play audio
+my_media.play();
+*/	
+$('.cerrar').click(function(){
 	
 
 	$('.mask').fadeOut();
@@ -33,7 +44,7 @@ $('.cerrar, .mask').click(function(){
 
     $('audio').each(function(){
         this.pause(); // Stop playing
-        this.currentTime = 0; // Reset time
+       
     });
 
 });
@@ -52,7 +63,7 @@ $('.pieza h3').each(function() {
 
             $('audio').each(function(){
                 this.pause(); // Stop playing
-                this.currentTime = 0; // Reset time
+                
             });
     	});
 	});
