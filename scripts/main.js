@@ -3,22 +3,13 @@
 //https://gist.github.com/alunny/2380994
 
 var playing = false;
-
 function effsound(src) {
     if (device.platform == 'Android') {
         src = '/android_asset/www/' + src;
     }
     var media = new Media(src, success, error_error);
-
-    if (!playing) {
-        media.play(); 
-        $('.tipos li').addClass('active');
-        playing = true; 
-    } else {
-        myMedia.pause();
-        $('.tipos li').removeClass('active');    
-        playing = false; 
-    }
+    media.play();
+    var playing = true;
 }
 function success() {
     // ignore
@@ -27,10 +18,10 @@ function error_error(e) {
     alert('great error');
     alert(e.message);
 }
+
 function stopAudio() {
   media.stop();
-  playing = false;
-  $('.tipos li').removeClass('active');   
+  playing = false;   
 }
 	
 $('.cerrar').click(function(){
