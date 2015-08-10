@@ -1,61 +1,39 @@
 //http://stackoverflow.com/questions/30259395/audio-will-not-play-on-android-using-phonegap-but-works-fine-on-ios
 //http://simonmacdonald.blogspot.com/2011/05/using-media-class-in-phonegap.html
 //https://gist.github.com/alunny/2380994
-var currentPlayer;
-function effSound(src) {
+
+var playing = false;
+
+function effsound(src) {
     if (device.platform == 'Android') {
         src = '/android_asset/www/' + src;
     }
     var media = new Media(src, success, error_error);
-    media.play();
 
-    thissound.addEventListener('ended', function() {
-       //alert("ended");
-       thissound.currentTime = 0;
-       //audio.play();
-       $('.tipos li').removeClass('active');
-    });
-    if(currentPlayer  && currentPlayer != thissound) {
-      currentPlayer.pause(); 
-     }
-     if (thissound.paused)
-                thissound.play();
-        else
-            thissound.pause();
-            //thissound.currentTime = 0;
-             currentPlayer = thissound;
+    if (!playing) {
+        media.play(); 
+        $('.tipos li').addClass('active');
+        playing = true; 
+    } else {
+        myMedia.pause();
+        $('.tipos li').removeClass('active');    
+        playing = false; 
+    }
 }
 function success() {
-   $('.tipos li').removeClass('active');
+    // ignore
 }
 function error_error(e) {
     alert('great error');
     alert(e.message);
 }
-
-
-
-    
-
-//audio.play();
-
- 
-/*
-function playAudio(id) {
-    var audioElement = document.getElementById(id);
-    var url = audioElement.getAttribute('src');
-    var my_media = new Media(url,
-    // success callback
-     function () { console.log("playAudio():Audio Success"); },
-    // error callback
-     function (err) { console.log("playAudio():Audio Error: " + err); }
-);
-       // Play audio
-my_media.play();
-*/	
-$('.cerrar').click(function(){
+function stopAudio() {
+  media.stop();
+  playing = false;
+  $('.tipos li').removeClass('active');   
+}
 	
-
+$('.cerrar').click(function(){
 	$('.mask').fadeOut();
 	$('article').fadeOut();
 
@@ -107,6 +85,7 @@ $('.pieza h3').each(function() {
 			$('.tipos li').removeClass('active');
 			$(this).addClass('active');
 		},function(b) {
+            $(this).topAudio();
 			$(this).removeClass('active');
 		});
 
