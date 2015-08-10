@@ -1,33 +1,45 @@
+//http://stackoverflow.com/questions/30259395/audio-will-not-play-on-android-using-phonegap-but-works-fine-on-ios
+//http://simonmacdonald.blogspot.com/2011/05/using-media-class-in-phonegap.html
+//https://gist.github.com/alunny/2380994
 var currentPlayer;
-function effSound(soundobj) {
+function effSound(src) {
+    if (device.platform == 'Android') {
+        src = '/android_asset/www/' + src;
+    }
+    var media = new Media(src, success, error_error);
+    media.play();
 
-var path = window.location.pathname;
-path = path.substr( path, path.length - 10 ); //strip off index.html
-return 'file://' + path;
-
-var thissound= effSound();
-thissound.addEventListener('ended', function() {
-   //alert("ended");
-   thissound.currentTime = 0;
-   //audio.play();
-   $('.tipos li').removeClass('active');
-});     
-
-//audio.play();
-
- if(currentPlayer  && currentPlayer != thissound) {
+    thissound.addEventListener('ended', function() {
+       //alert("ended");
+       thissound.currentTime = 0;
+       //audio.play();
+       $('.tipos li').removeClass('active');
+    });
+    if(currentPlayer  && currentPlayer != thissound) {
       currentPlayer.pause(); 
- }
- if (thissound.paused)
-            thissound.play();
-    else
-        thissound.pause();
-        //thissound.currentTime = 0;
-         currentPlayer = thissound;
+     }
+     if (thissound.paused)
+                thissound.play();
+        else
+            thissound.pause();
+            //thissound.currentTime = 0;
+             currentPlayer = thissound;
+}
+function success() {
+   $('.tipos li').removeClass('active');
+}
+function error_error(e) {
+    alert('great error');
+    alert(e.message);
 }
 
 
 
+    
+
+//audio.play();
+
+ 
 /*
 function playAudio(id) {
     var audioElement = document.getElementById(id);
