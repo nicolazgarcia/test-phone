@@ -1,6 +1,11 @@
 var currentPlayer;
 function effSound(soundobj) {
-var thissound=document.getElementById(soundobj);
+
+var path = window.location.pathname;
+path = path.substr( path, path.length - 10 ); //strip off index.html
+return 'file://' + path;
+
+var thissound= effSound();
 thissound.addEventListener('ended', function() {
    //alert("ended");
    thissound.currentTime = 0;
@@ -20,6 +25,9 @@ thissound.addEventListener('ended', function() {
         //thissound.currentTime = 0;
          currentPlayer = thissound;
 }
+
+
+
 /*
 function playAudio(id) {
     var audioElement = document.getElementById(id);
