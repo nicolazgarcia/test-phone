@@ -12,6 +12,7 @@ $('.pieza').each(function() {
     var pieza = $(this).find('.tarjeta');
 	$(this).find('h3').click(function() {
   		$(pieza).addClass('show');
+        $('html, body').animate({ scrollTop: 0 }, 'slow');      
 	});
 	});
 	
